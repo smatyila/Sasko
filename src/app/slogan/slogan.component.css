@@ -8,7 +8,7 @@
   .unemployed-count {
     font-size: 1em !important;
     padding-left: 3em !important;
-    padding-right: 3em !important;
+    padding-right: 0em !important;
   }
 }
 
@@ -27,6 +27,7 @@
 h4 {
   display: block;
   /*margin: 0 0 1rem;*/
+  color: #ff0016;
   text-rendering: optimizeLegibility;
   padding: 0;
 }

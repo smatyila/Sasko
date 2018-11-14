@@ -14,11 +14,11 @@ body {
 }
 
 .sub-title {
-  padding-left: 10em;
+  padding-left: 6em;
 }
 
 .card-title {
-  color: #343951;
+  color: #ff0016;
   margin: 0;
   font-size: 16px;
   line-height: 16px;
@@ -65,7 +65,7 @@ input[type=text], input[type=email], input[type=number], input[type=password], t
 .btn-primary {
   display: inline-block;
   border-radius: 4px;
-  background-color: #4CAF50;
+  background-color: #ff0016;
   border: none;
   color: #FFFFFF;
   float: right;
@@ -82,4 +82,10 @@ input[type=text], input[type=email], input[type=number], input[type=password], t
   display: inline-block;
   position: relative;
   transition: 0.5s;
+}
+
+mat-card {
+  color: #848484 !important;
+  /*width: auto;*/
+  /*max-width: 53%;*/
 }
