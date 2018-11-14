@@ -1,22 +1,29 @@
 .content {
-  padding-left: 16em;
-  padding-right: 16em;
+  padding-left: 11em;
+  /* padding-right: 16em; */
   font-size: 14px;
   text-align: left;
   color: #848484 !important;
   line-height: 22px;
   display: inline-block;
   height: auto;
-  -webkit-box-orient: vertical;
-  /*overflow: hidden;*/
+  width: 22%;
   text-overflow: ellipsis;
 }
 
-@media (max-width: 899px) {
+@media (max-width: 450px) {
   .content {
-    padding: 4em;
+    padding-left: 4em;
+    padding-top: 2em;
+    width: auto;
   }
 
+}
+
+@media (min-width: 460px) {
+  .content {
+    width: 406px;
+  }
 }
 
 section {
@@ -51,6 +58,6 @@ section {
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
-  padding: 10px 0 15px;
+  /*padding: 10px 0 15px;*/
 }
 
