@@ -11,12 +11,6 @@
   <mat-sidenav class="example-sidenav">
     <mat-sidenav-content >
       <button mat-button (click)="getProfile(user.uid)">Profile</button>
-      <button mat-button [matMenuTriggerFor]="menu">Questions</button>
-      <mat-menu #menu="matMenu">
-        <button mat-menu-item>Personal You</button>
-        <button mat-menu-item>Professional You</button>
-      </mat-menu>
-      <button mat-button (click)="selectTalent()">Talents</button>
     </mat-sidenav-content>
   </mat-sidenav>
   <mat-sidenav-content>
