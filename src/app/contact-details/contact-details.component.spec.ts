@@ -25,11 +25,11 @@ describe('ContactDetailsComponent', () => {
   });
   it('should have email', () => {
     const contactComponent = fixture.debugElement.componentInstance;
-    expect(contactComponent.email).toEqual('simtyuku@gmail.com');
+    expect(contactComponent.email).toEqual('SaskoCustomerCare@pioneerfoods.co.za');
   });
   it('should have message', () => {
     const contactComponent = fixture.debugElement.componentInstance;
-    const message = 'You can contact our support team for further information about the MOVEIN platform.';
+    const message = 'If you have any questions or feedback, send us a message below and we’ll get back to you soon!';
     expect(contactComponent.message).toEqual(message);
   });
 });
