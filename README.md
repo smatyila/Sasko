@@ -31,5 +31,5 @@ Create a get started angular project using angular cli and go throw the followin
 
 ## Firebase
 
-This application is using firebase as its backend. To understand firebase with Angular, please read [Angular + Firebase](https://medium.com/factory-mind/angular-firebase-typescript-step-by-step-tutorial-2ef887fc7d71)
+This application is using firebase as its backend engine. To understand firebase with Angular, please read [Angular + Firebase](https://medium.com/factory-mind/angular-firebase-typescript-step-by-step-tutorial-2ef887fc7d71)
 
