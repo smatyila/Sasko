@@ -11,7 +11,7 @@ export class HomeComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.title = 'MOVEIN';
+    this.title = 'SASKO';
   }
 
 }

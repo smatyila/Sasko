@@ -1,22 +1,24 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { QuestionAndAnswersComponent } from './question-and-answers.component';
+import { BodyContentComponent } from './body-content.component';
 import {NO_ERRORS_SCHEMA} from '@angular/core';
+import {MatCardModule} from '@angular/material';
 
-describe('QuestionAndAnswersComponent', () => {
-  let component: QuestionAndAnswersComponent;
-  let fixture: ComponentFixture<QuestionAndAnswersComponent>;
+describe('BodyContentComponent', () => {
+  let component: BodyContentComponent;
+  let fixture: ComponentFixture<BodyContentComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ QuestionAndAnswersComponent ],
+      declarations: [ BodyContentComponent ],
+      providers: [{ provide: MatCardModule, useValue: {} }],
       schemas: [ NO_ERRORS_SCHEMA ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(QuestionAndAnswersComponent);
+    fixture = TestBed.createComponent(BodyContentComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -1,39 +1,55 @@
 /* Add a black background color to the top navigation */
-.movein-nav {
-  overflow: hidden;
-  background-image: linear-gradient(-62deg,#283E8C 0,#232240 86%);
-  height: 20em;
+.sasko-nav {
+  /*overflow: hidden;*/
+  /*background-image: linear-gradient(-62deg,#FFF 0,#ff0016 86%);*/
+  /*height: 20em;*/
 }
 
 /* Style the links inside the navigation bar */
-.movein-nav a {
+.sasko-nav a {
   display: inline-block;
   border-radius: 4px;
   font-size: 16px;
-  padding: 15px 32px;
+  /*padding: 15px 32px;*/
+  padding-top: 10px;
+  padding-left: 10px;
   opacity: 1;
   text-decoration: none;
   font-weight: 500;
-  color: white;
+  color: #ff0016;
   transition: all 0.2s;
   cursor: pointer;
-  margin: 10px;
+  margin-top: 0px;
+  margin-left: 0px;
 }
 
-@media (max-width: 599px) {
+@media (max-width: 600px) {
   .hide-title {
-    display: none !important;
+    /*display: none !important;*/
+    padding: 0 !important;
+    margin: 0 !important;
   }
+  .sasko-nav {
+    height: 147px;
+    width: 500px;
+  }
+  mat-toolbar {
+    height: 15em !important;
+  }
+
 }
 
 /* Add an active class to highlight the current page */
 .active {
-  background-color: #4CAF50;
-  color: white;
+  color: #ff0016;
+  font-weight: 600;
+  text-transform: uppercase;
+  z-index: 2;
+  outline: none;
 }
 
 /* Hide the link that should open and close the topnav on small screens */
-.movein-nav .icon {
+.sasko-nav .icon {
   display: none;
 }
 
@@ -44,10 +60,16 @@
 
 mat-toolbar {
   overflow: hidden;
-  background-image: linear-gradient(-62deg,#283E8C 0,#232240 86%);
+  background-color: #efefef;
+  background-image: url(http://sasko.co.za/content/themes/sasko/app/assets/img/home/Sasko_TasteTheCare_title.png);
+  background-repeat: no-repeat;
+  background-position: center;
+
 }
 
 .mat-toolbar-row, .mat-toolbar-single-row {
   display: inline-table;
+  white-space: normal !important;
+  height: 10em;
 }
 

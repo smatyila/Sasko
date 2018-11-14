@@ -1,0 +1,40 @@
+div {
+  padding-top: 2em;
+}
+
+.feature-block {
+  overflow: hidden;
+  display: inline;
+}
+
+.range-head-prod {
+  font-size: 18px;
+  font-weight: 600;
+  color: #ff0016;
+  text-transform: uppercase;
+  text-align: left;
+  padding-right: 10%;
+  overflow: hidden;
+  margin-top: 4px !important;
+}
+
+.range-copy, .products-copy {
+  font-size: 14px;
+  text-align: left;
+  color: #848484;
+  line-height: 22px;
+  display: block;
+  height: auto;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 10px 0 15px;
+}
+
+.range-link {
+  text-align: left;
+  margin-bottom: 15px;
+  margin-top: 0px;
+  padding-left: 1em;
+}

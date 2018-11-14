@@ -1,10 +1,10 @@
 import { TestBed, async } from '@angular/core/testing';
 import { NO_ERRORS_SCHEMA } from '@angular/core';
 import { AppComponent } from './app.component';
-import {UnemployedCounterComponent} from './unemployed-counter/unemployed-counter.component';
+import {UnemployedCounterComponent} from './slogan/slogan.component';
 import {RegisterComponent} from './register/register.component';
 import {PreRegistrationComponent} from './pre-registration/pre-registration.component';
-import {MoveinComponent} from './movein/movein.component';
+import {BodyComponent} from './body/body.component';
 import {ContactDetailsComponent} from './contact-details/contact-details.component';
 describe('AppComponent', () => {
   beforeEach(async(() => {
@@ -14,7 +14,7 @@ describe('AppComponent', () => {
         UnemployedCounterComponent,
         RegisterComponent,
         PreRegistrationComponent,
-        MoveinComponent,
+        BodyComponent,
         ContactDetailsComponent
       ],
       schemas: [ NO_ERRORS_SCHEMA ],

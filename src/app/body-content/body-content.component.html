@@ -1,0 +1,17 @@
+<div>
+  <mat-card>
+  <mat-card-title class="feature-block">
+    <img src={{url}} align="bottom">
+  </mat-card-title>
+    <mat-card-subtitle class="range-head-prod"> {{title}}</mat-card-subtitle>
+  <hr>
+  <!--<mat-card-content class="card-content">-->
+    <div class="products-copy">
+      <ng-content></ng-content>
+    </div>
+  <!--</mat-card-content>-->
+    <mat-card-actions class="range-link">
+      {{link}}
+    </mat-card-actions>
+  </mat-card>
+</div>

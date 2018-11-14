@@ -6,8 +6,8 @@ import { StoreRouterConnectingModule,  RouterStateSerializer } from '@ngrx/route
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 
 import { AppComponent } from './app.component';
-import { UnemployedCounterComponent } from './unemployed-counter/unemployed-counter.component';
-import { MoveinComponent } from './movein/movein.component';
+import { UnemployedCounterComponent } from './slogan/slogan.component';
+import { BodyComponent } from './body/body.component';
 import { ContactDetailsComponent } from './contact-details/contact-details.component';
 import { RegisterComponent } from './register/register.component';
 import { PreRegistrationComponent } from './pre-registration/pre-registration.component';
@@ -29,16 +29,14 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatMenuModule } from '@angular/material/menu';
 import { HomeComponent } from './home/home.component';
 import {AppStateModule} from './state/app.state.module';
-import { PersonalSuccessComponent } from './personal-success/personal-success.component';
-import { QuestionAndAnswersComponent } from './question-and-answers/question-and-answers.component';
-import { MoveinContentComponent } from './movein-content/movein-content.component';
+import { BodyContentComponent } from './body-content/body-content.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     UnemployedCounterComponent,
-    MoveinComponent,
+    BodyComponent,
     ContactDetailsComponent,
     RegisterComponent,
     PreRegistrationComponent,
@@ -46,9 +44,7 @@ import { MoveinContentComponent } from './movein-content/movein-content.componen
     UpdateProfileComponent,
     DashboardComponent,
     HomeComponent,
-    PersonalSuccessComponent,
-    QuestionAndAnswersComponent,
-    MoveinContentComponent
+    BodyContentComponent
   ],
   imports: [
     AppStateModule,

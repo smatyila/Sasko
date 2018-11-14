@@ -1,7 +1,7 @@
 .register {
   /*display: inline-block;*/
   border-radius: 4px;
-  background-color: #4CAF50;
+  background-color: #ff0016;
   border: none;
   color: #FFFFFF;
   float: right;
@@ -11,6 +11,7 @@
   transition: all 0.5s;
   cursor: pointer;
   margin: 12px;
+  white-space: nowrap !important;
 }
 
 .register span {
@@ -43,7 +44,7 @@
   border-radius: 4px;
   /*background-color: #4CAF50;*/
   /*border: none;*/
-  color: #FFFFFF;
+  color: #ff0016;
   float: right;
   text-align: center;
   font-size: 16px;
@@ -51,4 +52,5 @@
   transition: all 0.5s;
   cursor: pointer;
   margin: 12px;
+  white-space: nowrap !important;
 }
