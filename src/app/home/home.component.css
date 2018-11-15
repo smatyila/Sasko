@@ -64,6 +64,8 @@ mat-toolbar {
   background-image: url(http://sasko.co.za/content/themes/sasko/app/assets/img/home/Sasko_TasteTheCare_title.png);
   background-repeat: no-repeat;
   background-position: center;
+  padding-right: 11em;
+  padding-left: 7em;
 
 }
 
