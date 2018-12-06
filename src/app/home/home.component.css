@@ -66,6 +66,13 @@ mat-toolbar {
   background-position: center;
   padding-right: 11em;
   padding-left: 7em;
+}
+
+@media (max-width: 768px) {
+  mat-toolbar {
+    padding-right: 0em;
+    padding-left: 1em;
+  }
 
 }
 
